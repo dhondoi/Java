@@ -1,5 +1,3 @@
-# TIPE DATA NUMBER
-```java
 package number;
 
 public class Number {
@@ -34,5 +32,3 @@ public class Number {
     }
 
 }
-
-```

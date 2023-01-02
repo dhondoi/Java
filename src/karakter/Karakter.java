@@ -1,5 +1,3 @@
-# TIPE DATA KARAKTER
-```java
 package karakter;
 
 public class Karakter {
@@ -10,4 +8,3 @@ public class Karakter {
     }
 
 }
-```

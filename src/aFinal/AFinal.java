@@ -1,5 +1,3 @@
-# KATA KUNCI "FINAL"
-```java
 package aFinal;
 
 public class AFinal {
@@ -11,4 +9,3 @@ public class AFinal {
         s = "coba diubah"; // error
     }
 }
-```

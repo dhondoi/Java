@@ -1,5 +1,3 @@
-# TIPE DATA STRING
-```java
 package aString;
 
 public class AString {
@@ -13,4 +11,3 @@ public class AString {
         String fullName = firstName + " " + lastName;
     }
 }
-```

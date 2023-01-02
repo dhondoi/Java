@@ -1,5 +1,3 @@
-# VARIABLE
-```java
 package variable;
 
 public class Variable {
@@ -13,4 +11,3 @@ public class Variable {
         var iniVar1 = "hello"; // accept
     }
 }
-```

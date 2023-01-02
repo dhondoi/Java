@@ -1,5 +1,3 @@
-# TIPE DATA KARAKTER
-```java
 package aBoolean;
 
 public class ABoolean {
@@ -10,5 +8,3 @@ public class ABoolean {
     }
 
 }
-
-```

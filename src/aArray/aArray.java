@@ -1,5 +1,3 @@
-# TIPE DATA ARRAY
-```java
 package aArray;
 
 public class aArray {
@@ -26,5 +24,3 @@ public class aArray {
         // System.out.println(stringses[3][3]); -> error
     }
 }
-
-```

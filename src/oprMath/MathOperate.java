@@ -1,5 +1,3 @@
-# OPERASI MATEMATIKA
-```java
 package oprMath;
 
 public class MathOperate {
@@ -30,4 +28,3 @@ public class MathOperate {
         
     }
 }
-```

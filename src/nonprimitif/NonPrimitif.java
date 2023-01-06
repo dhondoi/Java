@@ -1,5 +1,3 @@
-# TIPE DATA NON-PRIMITIF
-```java
 package nonprimitif;
 
 public class NonPrimitif {
@@ -10,10 +8,8 @@ public class NonPrimitif {
         Long iniLong = 100L;
         Byte iniByte = null;
         // konversi dari non-primitif
-        long iniLong1 = iniInteger.longValue();
+        long iniLong1 = iniLong.longValue();
         // konversi dari primitif
         iniLong = iniLong1;
     }
 }
-
-```

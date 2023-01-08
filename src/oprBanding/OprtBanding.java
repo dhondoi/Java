@@ -1,5 +1,3 @@
-# OPERASI PERBANDINGAN
-```java
 package oprBanding;
 
 public class OprtBanding {
@@ -16,4 +14,3 @@ public class OprtBanding {
         System.out.println(a != b); // tidak sama dengan
     }
 }
-```

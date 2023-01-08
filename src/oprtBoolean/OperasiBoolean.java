@@ -1,5 +1,3 @@
-# OPERASI BOOLEAN
-```java
 package oprtBoolean;
 
 public class OperasiBoolean {
@@ -21,4 +19,3 @@ public class OperasiBoolean {
         System.out.println("!false = " + !false);
     }
 }
-```

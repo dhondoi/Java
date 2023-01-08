@@ -1,5 +1,3 @@
-# IF STATEMENT
-```java
 package ifStmt;
 
 public class IfStatement {
@@ -27,4 +25,3 @@ public class IfStatement {
         }
     }
 }
-```

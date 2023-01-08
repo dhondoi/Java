@@ -1,5 +1,3 @@
-# TERNARY OPERATOR
-```java
 package ternaryop;
 
 public class TernaryOperator {
@@ -11,4 +9,3 @@ public class TernaryOperator {
         System.out.println(ucapan);
     }
 }
-```

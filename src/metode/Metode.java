@@ -1,5 +1,3 @@
-# METODE
-```java
 package metode;
 
 public class Metode {
@@ -82,4 +80,3 @@ public class Metode {
     }
 
 }
-```

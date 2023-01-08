@@ -1,5 +1,3 @@
-# SWITCH STATEMENT
-```java
 package switchStmt;
 
 public class SwitchStatement {
@@ -47,4 +45,3 @@ public class SwitchStatement {
         //        };
     }
 }
-```

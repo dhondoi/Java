@@ -1,5 +1,3 @@
-# EXPRESSION STATEMENT, DAN BLOCK
-```java
 package exprstmtblck;
 
 public class ExprStmtBlck {
@@ -31,4 +29,3 @@ public class ExprStmtBlck {
         // yang didalam {}
     }
 }
-```

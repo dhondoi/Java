@@ -1,13 +1,4 @@
-# SUPER KEYWORD
-```java
 package superKeyword;
-
-class Employee {
-
-    void sayHello(String name) {
-        System.out.println("My name is Employee " + name);
-    }
-}
 
 class Manager extends Employee {
 
@@ -23,12 +14,3 @@ class Manager extends Employee {
         System.out.println("My name is Manager " + name);
     }
 }
-
-public class Main {
-
-    public static void main(String[] args) {
-        new Manager().sayHello("Michael");
-    }
-}
-
-```

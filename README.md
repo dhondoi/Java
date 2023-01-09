@@ -1,33 +1,35 @@
-# SUPER KEYWORD
+# SUPER CONSTRUCTOR
 ```java
-package superKeyword;
+package superConstructor;
 
 class Employee {
 
-    void sayHello(String name) {
-        System.out.println("My name is Employee " + name);
+    String name;
+    
+    // membuat constructor
+    Employee(String name) {
+        this.name = name;
     }
+
 }
 
-class Manager extends Employee {
+/**
+ * Class Manager error
+ * karena Employee memilki contructor.
+ * jadi, harus dibuat constructor di Class Manager.
+ * ini merupakan konsep Super Contructor
+ */
+class Manager extends Employee {    
 
-    // method overriding
-    void sayHello(String name) {
-        /**
-         * untuk mengakses method yang terdapat dalam kelas parent
-         * yang sudah terlanjur di override
-         * gunakan gunakan kata kunci "super"
-         */
-        super.sayHello(name);
-        
-        System.out.println("My name is Manager " + name);
+    public Manager(String name) {
+        super(name);
     }
 }
 
 public class Main {
 
     public static void main(String[] args) {
-        new Manager().sayHello("Michael");
+        new Manager("Michael");
     }
 }
 

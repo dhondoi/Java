@@ -1,8 +1,8 @@
-package superKeyword;
+package superConstructor;
 
 public class Main {
 
     public static void main(String[] args) {
-        new Manager().sayHello("Michael");
+        new Manager("Michael");
     }
 }

@@ -1,4 +1,4 @@
-package polymorphism;
+package tipecekdancast;
 
 class Manager extends Employee {
 

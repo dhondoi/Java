@@ -1,4 +1,4 @@
-package polymorphism;
+package tipecekdancast;
 
 class VicePresident extends Manager {
 

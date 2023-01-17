@@ -1,42 +1,4 @@
-# TYPE CHECK N CAST
-```java
-package polymorphism;
-
-class Employee {
-
-    String name;
-
-    Employee(String name) {
-        this.name = name;
-    }
-
-    void sayEmployee() {
-        System.out.println("Hello Employee " + name);
-    }
-
-}
-
-class Manager extends Employee {
-
-    Manager(String name) {
-        super(name);
-    }
-    
-    void sayManager() {
-        System.out.println("Hello Manager " + name);
-    }
-}
-
-class VicePresident extends Manager {
-
-    VicePresident(String name) {
-        super(name);
-    }
-    
-    void sayVicePresident() {
-        System.out.println("Hello Vice President " + name);
-    }
-}
+package tipecekdancast;
 
 public class Main {
 
@@ -60,5 +22,3 @@ public class Main {
         }
     }
 }
-
-```

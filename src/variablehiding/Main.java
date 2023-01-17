@@ -1,25 +1,4 @@
-# VARIABLE HIDING
-```java
 package variablehiding;
-
-class Parent {
-
-    String name;
-
-    void doIt() {
-        System.out.println("Do It from parent");
-    }
-
-}
-
-class Child extends Parent {
-
-    String name;
-
-    void doIt() {
-        System.out.println("Do It from child");
-    }
-}
 
 public class Main {
 
@@ -55,5 +34,3 @@ public class Main {
          */
     }
 }
-
-```

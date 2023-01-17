@@ -1,12 +1,4 @@
-# ABSTRACT CLASS
-```java
 package abstarctClass;
-
-abstract class Product {
-}
-
-class Product1 extends Product{
-}
 
 public class Main {
 
@@ -21,5 +13,3 @@ public class Main {
         Product p = new Product1(); // OK
     }
 }
-
-```

@@ -1,5 +1,3 @@
-# GETTER N SETTER
-```java
 package getnset;
 
 class Product {
@@ -15,12 +13,3 @@ class Product {
     }
 
 }
-
-public class Main {
-
-    public static void main(String[] args) {
-        Product p = new Product();
-    }
-}
-
-```

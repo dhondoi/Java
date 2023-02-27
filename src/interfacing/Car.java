@@ -1,5 +1,3 @@
-# INTERFACE
-```java
 package interfacing;
 
 /**
@@ -24,33 +22,3 @@ interface Car {
     }
 
 }
-
-/**
- *
- * Mewariskan interface menggunakan kata kunci "implements"
- */
-class Avanza implements Car {
-
-    @Override
-    public void drive() {
-        System.out.println("Avanza Drive");
-    }
-
-    @Override
-    public int getTire() {
-        return 4;
-    }
-
-}
-
-public class Main {
-
-    public static void main(String[] args) {
-        Car car = new Avanza();
-        car.drive();
-        System.out.println(car.getTire());
-        System.out.println(car.isMaintenance());
-    }
-}
-
-```
